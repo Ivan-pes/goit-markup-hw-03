@@ -44,6 +44,35 @@ body {
 .nav-list .nav-link:focus {
     color: #404bbf;
 }
+/* header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.main-logo {
+    margin-right: 76px;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+.nav-link {
+    padding: 24px 0;
+}
+.contact-list {
+    display: flex;
+    gap:40px;
+}
 
 /* adress */
 .contact-info {
