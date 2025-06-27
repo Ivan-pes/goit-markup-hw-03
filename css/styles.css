@@ -133,7 +133,7 @@ body {
 }
 .button {
     display: block;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none;
     background-color: #4d5ae5;
@@ -160,6 +160,19 @@ body {
     color: #434455;
 }
 
+.features {
+    padding: 120px 0;
+}
+.features-list {
+    display: flex;
+    gap: 40px;
+}
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
+.feature-title {
+    margin-bottom: 8px;
+}
 /* 3-section */
 .our-team {
     background-color: #F4F4FD;
