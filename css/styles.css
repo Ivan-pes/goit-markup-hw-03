@@ -184,17 +184,16 @@ flex-direction: column;
 
 /* SECOND SECTION */
 .visually-hidden {
-    margin-bottom: 72px;
-        font-weight: 700px;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2e2f42;
-
-        overflow: hidden;
-        visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .list-sec {
     list-style-type: none;
@@ -234,7 +233,7 @@ flex-direction: column;
 }
 .our-team {
     margin-bottom: 72px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
