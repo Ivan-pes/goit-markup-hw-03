@@ -13,6 +13,11 @@ p {
     margin: 0;
     padding: 0;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .container {
     display: flex;
     width: 1158px;
@@ -85,6 +90,7 @@ flex-direction: column;
  .firs-links {
     text-decoration: none;
     padding: 24px 0;
+    display: block;
  }
 .nav-list .firs-links {
     font-weight: 500;
@@ -188,7 +194,7 @@ flex-direction: column;
         color: #2e2f42;
 
         overflow: hidden;
-        display: none;
+        visibility: hidden;
 }
 .list-sec {
     list-style-type: none;
